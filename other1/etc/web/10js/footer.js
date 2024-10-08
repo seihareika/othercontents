@@ -1,0 +1,10 @@
+document.write(`
+<footer>
+    <h4>
+        <br>
+        <small>&copy;copyright</small>
+        <br>
+        <br>
+    </h4>
+</footer>
+`);
