@@ -15,11 +15,14 @@ def update_time():
 app = tk.Tk()
 app.title("New Watch")
 app.geometry("290x175+0+0")
+app.config(bg="#64FA64")
 
 time_label_time = tk.Label(app, font=("MV Boli", "35", "bold"))
 time_label_time.place(x=0, y=75)
+time_label_time.config(bg="#64FA64")
 time_label_calender = tk.Label(app, font=("MV Boli", "35", "bold"))
 time_label_calender.place(x=0, y=0)
+time_label_calender.config(bg="#64FA64")
 update_time()
 
 button = tk.Button(app,
